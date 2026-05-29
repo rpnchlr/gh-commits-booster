@@ -31,6 +31,10 @@ bash booster.sh
 ```
 4. while this script is running type anything in your test/dummy file, for some valid changes.
 
+5. After some time you'll see n number of commits, you can push them and it'll be shown in your github.
+```
+git push -u origin main
+```
 
 ## NOTE 
 1. This is an infinitely running script until you manually stop/terminate it.
