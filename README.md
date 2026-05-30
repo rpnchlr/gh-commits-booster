@@ -1,5 +1,5 @@
 # GH-COMMITS-BOOSTER
-This is a bash script for boosting or multiplying commits on github. This is just a fun experiment to check my bash learning skills. Kindly, not use this script to manipulate or multiply your github commits.
+This is a bash script for boosting or multiplying commits on github. This is just a fun experiment. Kindly, not use this script to manipulate or multiply your github commits.
 
 This script can be used in unix, linux, mac and windows systems. 
 
@@ -11,10 +11,7 @@ cd git-commits-booster
 ```
 
 ## How to use this Script?
-1. After Cloning this repo, cp this script to a private repo, or you can clone this repo into your private repo or just fork it and clone it. 
-
-    To copy this script into some other directory and also change the cwd.
-        
+1. After Cloning this repo, cp this script to a different directory. 
 ```
 cp booster.sh ../[DIR_PATH] && cd ../[DIR_PATH]
 ```
@@ -56,7 +53,10 @@ git push -u origin main
         ```
         ./booster.sh -t p -n q
         ```
+
 2. For Windows user, Use git bash as the terminal to use this script. Installation and usage will be the same.
+
+3. This Script auto detects if a directory is a git repo or not, if it's not then it'll initialize a git repo at it's own. So their is no need to do any setup before using this script just cp it in some other folder and voila! it will do everything at its own.
 
 ### Warning
 This script make fake commits at its own and multiplies fake github commits, using it too much may flag your account as a bot, as it violates github rules and regulations, and may result in ban from github.
