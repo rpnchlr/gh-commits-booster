@@ -1,7 +1,7 @@
 # GH-COMMITS-BOOSTER
 This is a bash script for boosting or multiplying commits on github. This is just a fun experiment to check my bash learning skills. Kindly, not use this script to manipulate or multiply your github commits.
 
-This script is useful in unix, linux and mac based systems. 
+This script can be used in unix, linux and mac based systems. 
 
 ## Installation?
 ```
@@ -29,9 +29,8 @@ sh booster.sh
     OR
 bash booster.sh
 ```
-4. while this script is running type anything in your test/dummy file, for some valid changes.
 
-5. After some time you'll see n number of commits, you can push them and it'll be shown in your github.
+4. After some time you'll see n number of commits, you can push them and it'll be shown in your github.
 ```
 git push -u origin main
 ```
@@ -46,3 +45,8 @@ CTRL+C
 ./booster.sh -t n
 ```
 here, n could be any number of waiting time you want this script to rerun the loop. n is in seconds here.
+
+3. For Windows user, Use git bash as the terminal to use this script. Installation and usage will be the same.
+
+### Warning
+This script is commiting at its own and multiplying fake github commits, using it too much may flag your account as a bot, as it violates github rules and regulations, and may result in ban from github.
